@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Mock_Callout_Mapping__mdt.Endpoint__c</members>
+		<members>Mock_Callout_Mapping__mdt.Error_HTTP_Code__c</members>
+		<members>Mock_Callout_Mapping__mdt.Error_Method__c</members>
+		<members>Mock_Callout_Mapping__mdt.Error_Static_Resource_Name__c</members>
+		<members>Mock_Callout_Mapping__mdt.Include_Params__c</members>
+		<members>Mock_Callout_Mapping__mdt.Success_HTTP_Code__c</members>
+		<members>Mock_Callout_Mapping__mdt.Success_Method__c</members>
+		<members>Mock_Callout_Mapping__mdt.Success_Static_Resource_Name__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>Mock_Callout_Mapping__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>StaticResource</name>
+	</types>
+	<version>53.0</version>
+</Package>

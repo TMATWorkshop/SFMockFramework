@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AWS</label>
+    <protected>false</protected>
+    <values>
+        <field>Endpoint__c</field>
+        <value xsi:type="xsd:string">https://aws.service.com/endpoint</value>
+    </values>
+    <values>
+        <field>Error_HTTP_Code__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Error_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Error_Static_Resource_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Include_Params__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Success_HTTP_Code__c</field>
+        <value xsi:type="xsd:double">200.0</value>
+    </values>
+    <values>
+        <field>Success_Method__c</field>
+        <value xsi:type="xsd:string">POST</value>
+    </values>
+    <values>
+        <field>Success_Static_Resource_Name__c</field>
+        <value xsi:type="xsd:string">AWS_Success</value>
+    </values>
+</CustomMetadata>
