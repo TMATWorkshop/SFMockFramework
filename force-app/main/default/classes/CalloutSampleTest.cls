@@ -19,7 +19,7 @@ public class CalloutSampleTest {
         List<StaticResource> srList = [SELECT Name, Body FROM StaticResource WHERE Name =: mdList[0].Success_Static_Resource_Name__c];
 
         Test.startTest();
-        String jsonStr = CalloutSample.getCalloutResponseContents(mdList[0].Endpoint__c, mdList[0].Success_Method__c);
+        String jsonStr = CalloutSample.getCalloutResponseContents(mdList[0].Endpoint__c + '?test=abc', mdList[0].Success_Method__c);
         Test.stopTest();
         System.assertEquals(srList[0].Body.toString(), jsonStr);
     }

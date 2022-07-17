@@ -72,10 +72,9 @@ global class MockHttpResponseGenerator implements HttpCalloutMock {
 
     private Mock_Callout_Mapping__mdt findMD (HttpRequest req) {
         Mock_Callout_Mapping__mdt md = new Mock_Callout_Mapping__mdt();
-
         for (Mock_Callout_Mapping__mdt meta : mockCalloutList) {
             if ((meta.Endpoint__c == req.getEndpoint() && meta.Include_Params__c == true) || 
-                (meta.Endpoint__c.startsWith(req.getEndpoint()) && meta.Include_Params__c == false)) {
+                (req.getEndpoint().startsWith(meta.Endpoint__c)&& meta.Include_Params__c == false)) {
                     md = meta;
                     break;
                 }
